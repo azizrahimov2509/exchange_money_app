@@ -9,7 +9,7 @@ const CurrencyConverter = () => {
   const [loading, setLoading] = useState(false);
   const [currencies, setCurrencies] = useState([]);
 
-  const apiKey = import.meta.env.VITE_CURRENCY_API_KEY;
+  const apiKey = "34a05128ea41973d91930103";
 
   const fetchExchangeRates = async (currency) => {
     setLoading(true);
